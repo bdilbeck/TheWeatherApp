@@ -34,19 +34,7 @@ public class TheWeatherApp { // Declares the main method
 
         reader.close(); // Closes the BufferedReader
         connection.disconnect(); // Disconnects the HTTP connection
-                // Parse JSON response
-      //  JsonObject jsonObject = JsonParser.parseString(response.toString()).getAsJsonObject();
-       // JsonObject properties = jsonObject.getAsJsonObject("properties");
 
-             // Extract relevant weather data using Gson
-       // Gson gson = new Gson();
-        //Forecast forecast = gson.fromJson(properties.getAsJsonObject("periods").get(0), Forecast.class);
-        
-                    // Access the parsed data
-        //String detailedForecast = forecast.getDetailedForecast();
-        
-                    // Print the detailed forecast
-        //System.out.println("Detailed Forecast: " + detailedForecast);
 
     } catch (Exception e) { // Handles exceptions
             e.printStackTrace(); 
